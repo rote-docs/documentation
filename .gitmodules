@@ -1,3 +1,7 @@
 [submodule "themes/rote"]
 	path = themes/rote
 	url = https://github.com/rote-docs/rote.git
+[submodule "public"]
+	path = public
+	url = git@github.com:rote-docs/rote-docs.github.io.git
+	branch = master
