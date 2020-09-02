@@ -1,4 +1,4 @@
-baseURL = "https://rote-docs.github.io/"
+baseURL = "https://rote.dev/"
 languageCode = "en-us"
 title = "Rote Docs"
 theme = "rote"
