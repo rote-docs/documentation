@@ -1,0 +1,3 @@
+[submodule "themes/rote"]
+	path = themes/rote
+	url = https://github.com/rote-docs/rote.git

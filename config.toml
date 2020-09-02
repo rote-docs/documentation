@@ -1,0 +1,26 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Rote Docs"
+theme = "rote"
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+primarybackgroundcolor = "#7649bd"
+primarytextcolor = "#fff"
+showlistpages = false
+
+[[menu.shortcuts]]
+name = "GitHub Repository"
+pre = "github"
+url = "https://github.com/rote-docs/rote"
+weight = 10
+
+[[menu.shortcuts]]
+name = "Docs Repository"
+pre = "github"
+url = "https://github.com/rote-docs/documentation"
+weight = 20
