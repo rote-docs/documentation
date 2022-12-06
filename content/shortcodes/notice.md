@@ -5,7 +5,7 @@ description = "A notice box that draws attention to its contents"
 
 A notice box is a highlighted area that draws attention to the content within it. You can get a default style notice by not passing any parameters:
  
- ```
+ ```text
 {{</* notice */>}}
 This is a default notice.
 {{</* /notice */>}}
@@ -18,7 +18,7 @@ This is a default notice.
 * `warning`
 * `danger`
 
-```
+```text
 {{</* notice "success" */>}}
 This is a success notice.
 {{</* /notice */>}}

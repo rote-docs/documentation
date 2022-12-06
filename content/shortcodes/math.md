@@ -7,7 +7,7 @@ The math shortcode uses [MathJax](https://www.mathjax.org) to render math equati
 
 ## Example 1
 
-```
+```text
 {{</* math */>}}
 x = {-b \pm \sqrt{b^2-4ac} \over 2a}
 {{</* /math */>}}
@@ -19,7 +19,7 @@ x = {-b \pm \sqrt{b^2-4ac} \over 2a}
 
 ## Example 2
 
-```
+```text
 {{</* math */>}}
 \left( \sum_{k=1}^n a_k b_k \right)^2 
 \leq 

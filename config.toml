@@ -2,16 +2,19 @@ baseURL = "https://rote.dev/"
 languageCode = "en-us"
 title = "Rote Docs"
 theme = "rote"
-pygmentsCodeFences = true
-pygmentsStyle = "monokailight"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
+[markup]
+  [markup.highlight]
+    lineNos = true
+
 [params]
-primarybackgroundcolor = "#7649bd"
-primarytextcolor = "#fff"
-showlistpages = false
+primaryBackgroundColor = "#406db5"
+primaryTextColor = "#fff"
+showListPages = false
+themeVariant = "dark"
 
 [[menu.shortcuts]]
 name = "GitHub Repository"

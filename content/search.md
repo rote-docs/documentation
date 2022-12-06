@@ -3,7 +3,7 @@ title = "Search"
 description = "Search this documentation site"
 layout = "search"
 weight = 50
- 
+
 hidden = true
 
 [sitemap]

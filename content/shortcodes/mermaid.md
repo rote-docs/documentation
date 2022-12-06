@@ -11,9 +11,9 @@ The mermaid shortcode is used to embed [Mermaid](http://mermaid-js.github.io/mer
 The examples here don't cover every possible chart type. For that, visit [Mermaid's documentation](http://mermaid-js.github.io/mermaid/#/).
 {{< /notice >}}
 
-#### Sequence Diagram
+### Sequence Diagram
 
-```
+```text
 {{</* mermaid */>}}
 sequenceDiagram
     participant Alice
@@ -43,9 +43,9 @@ sequenceDiagram
     Bob-->>John: Jolly good!
 {{< /mermaid >}}
 
-#### Pie Chart
+### Pie Chart
 
-```
+```text
 {{</* mermaid */>}}
 pie title What Voldemort doesn't have?
          "FRIENDS" : 2
@@ -61,9 +61,9 @@ pie title What Voldemort doesn't have?
          "NOSE" : 45
 {{< /mermaid >}}
 
-#### Flow Chart
+### Flow Chart
 
-```
+```text
 {{</* mermaid */>}}
 graph LR
     A[Square Rect] -- Link text --> B((Circle))
